@@ -1,59 +1,9 @@
 # web-tracing
 前端 - 埋点, 性能采集, 异常采集, 请求采集, 路由采集
 
-## 使用
-将打包好的`trace.js`文件放在`public`文件夹下,随后在`public -> index.html`页面初始化
-> public文件夹指的是vue项目中跟路径下的public文件夹
-``` html
-<script type="text/javascript" src="<%= BASE_URL %>trace.js"></script>
-<script type="text/javascript">
-  _trace.init({
-    appName: "ops_wit",
-    hashtag: true
-  });
-</script>
-```
-采集方式
-+ 自动采集: 通过元素上的已挂载的属性获取参数后传递给后端
-+ 手动采集: 调用插件内的目标方法来触发相对应的采集后会自动传递给后端
 
-### init
-``` js
-_trace.init(options)
-```
-### options
-| 名称                      | 类型           | 是否必填 | 默认值    | 说明                                                                                         |
-| ------------------------- | -------------- | -------- | --------- | -------------------------------------------------------------------------------------------- |
-| requestUrl                | string         | 是       | -         | 是否开启触发事件时控制台输出     **必填**                                                    |
-| appName                   | string         | 是       | -         | 应用的标记,以此来区分各个应用,**必填**                                                       |
-| appCode                   | string         | 否       | -         | 应用的code,附加作用                                                                          |
-| appVersion                | string         | 否       | -         | 应用版本                                                                                     |
-| ext                       | object         | 否       | undefined | 自定义的全局附加参数                                                                         |
-| debug                     | boolean        | 否       | false     | 是否开启触发事件时控制台输出                                                                 |
-| pv                        | boolean/object | 否       | false     | boolean: true代表其所有属性为true/false代表其所有属性为false                                 |
-| pv.core                   | boolean        | 否       | false     | 页面跳转-是否自动发送页面跳转相关数据                                                        |
-| pv.hashtag                | boolean        | 否       | false     | 页面跳转-浏览器的动作发生时(例如浏览器的回退按钮)是否监听hash变化,如果是hash路由请开启此开关 |
-| performance               | boolean/object | 否       | false     | boolean: true代表其所有属性为true/false代表其所有属性为false                                 |
-| performance.core          | boolean        | 否       | false     | 性能数据-是否采集静态资源、接口的相关数据                                                    |
-| performance.firstResource | boolean        | 否       | false     | 性能数据-是否采集首次进入页面的数据(ps: tcp连接耗时,HTML加载完成时间,首次可交互时间)         |
-| performance.server        | boolean        | 否       | false     | 接口请求-是否采集接口请求(成功的才会采集)                                                    |
-| error                     | boolean/objcet | 否       | false     | boolean: true代表其所有属性为true/false代表其所有属性为false                                 |
-| error.core                | boolean        | 否       | false     | 是否采集异常数据(ps: 资源引入错误,promise错误,控制台输出错误)                                |
-| error.server              | boolean        | 否       | false     | 接口请求-是否采集报错接口数据                                                                |
-| event                     | boolean/objcet | 否       | false     | boolean: true代表其所有属性为true/false代表其所有属性为false                                 |
-| event.core                | boolean        | 否       | false     | 页面点击-是否采集点击事件                                                                    |
-| event.unload              | boolean        | 否       | false     | 页面卸载-是否在页面卸载时采集页面状态信息                                                    |
 
-### 页面元素标记
-| 属性名称              | 说明                                                                                |
-| --------------------- | ----------------------------------------------------------------------------------- |
-| data-warden-container | 该元素作为采集容器,内部的需要采集的元素上如果没有这些属性会使用容器上的属性最为填充 |
-| data-warden-event-id  | 元素上标记事件的id                                                                  |
-| data-warden-title     | 元素上标记事件的title,也可以使用原生的title属性,但是此时鼠标悬浮会有提示            |
-| data-warden-*         | 其他的属性都会被当作参数,例如 data-warden-name="a"会被收集为{ name: 'a' }           |
 
-### 方法
-挂载在`window._trace`上的一些方法,可以用来修改配置或者主动触发采集
 
 #### init
 初始化,通过参数控制采集
