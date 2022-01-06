@@ -1,2 +1,2 @@
-import "D:\\B学习\\vuepress-starter\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
+import "D:\\B学习\\web-tracing-docu\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
 export default {}

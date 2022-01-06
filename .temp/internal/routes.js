@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\B学习\\vuepress-starter\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "D:\\B学习\\web-tracing-docu\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7ea69fa8",
+    name: "v-fbeb95a4",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7ea69fa8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-fbeb95a4").then(next)
     },
   },
   {
@@ -21,19 +21,47 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-6dd5e47c",
-    path: "/handbook/Geners.html",
+    name: "v-4386298c",
+    path: "/demo/core.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6dd5e47c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4386298c").then(next)
     },
   },
   {
-    name: "v-cb998748",
-    path: "/handbook/Geners_2.html",
+    name: "v-1f363d99",
+    path: "/use/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cb998748").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1f363d99").then(next)
+    },
+  },
+  {
+    path: "/use/index.html",
+    redirect: "/use/"
+  },
+  {
+    name: "v-431912aa",
+    path: "/use/js.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-431912aa").then(next)
+    },
+  },
+  {
+    name: "v-306a7d7a",
+    path: "/docu/core.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-306a7d7a").then(next)
+    },
+  },
+  {
+    name: "v-04731cc0",
+    path: "/use/vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-04731cc0").then(next)
     },
   },
   {

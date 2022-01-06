@@ -3,35 +3,86 @@
  */
 export const siteData = {
   "title": "web-tracing",
-  "description": "前端 - 埋点, 性能采集, 异常采集, 请求采集, 路由采集",
-  "base": "/",
+  "description": "基于 JS / VUE 的 【埋点 & 性能采集 & 异常采集 & 请求采集 & 路由采集】 插件",
+  "base": "/web-tracing-docu/",
   "headTags": [],
   "pages": [
     {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-7ea69fa8",
+      "key": "v-fbeb95a4",
       "path": "/"
     },
     {
       "frontmatter": {},
-      "regularPath": "/handbook/Geners.html",
-      "relativePath": "handbook/Geners.md",
-      "key": "v-6dd5e47c",
-      "path": "/handbook/Geners.html"
+      "regularPath": "/demo/core.html",
+      "relativePath": "demo/core.md",
+      "key": "v-4386298c",
+      "path": "/demo/core.html"
+    },
+    {
+      "title": "web-tracing",
+      "frontmatter": {},
+      "regularPath": "/use/",
+      "relativePath": "use/index.md",
+      "key": "v-1f363d99",
+      "path": "/use/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 3,
+          "title": "init",
+          "slug": "init"
+        },
+        {
+          "level": 3,
+          "title": "options",
+          "slug": "options"
+        },
+        {
+          "level": 3,
+          "title": "页面元素标记",
+          "slug": "页面元素标记"
+        },
+        {
+          "level": 3,
+          "title": "方法",
+          "slug": "方法"
+        },
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "设计核心(WWWWH)",
+          "slug": "设计核心-wwwwh"
+        },
+        {
+          "level": 3,
+          "title": "埋点自动分类采集",
+          "slug": "埋点自动分类采集"
+        },
+        {
+          "level": 3,
+          "title": "事件数据结构",
+          "slug": "事件数据结构"
+        }
+      ]
     },
     {
       "title": "我是标题",
-      "frontmatter": {
-        "title": "我是标题",
-        "author": "三季",
-        "date": "2022-1-5"
-      },
-      "regularPath": "/handbook/Geners_2.html",
-      "relativePath": "handbook/Geners_2.md",
-      "key": "v-cb998748",
-      "path": "/handbook/Geners_2.html",
+      "frontmatter": {},
+      "regularPath": "/use/js.html",
+      "relativePath": "use/js.md",
+      "key": "v-431912aa",
+      "path": "/use/js.html",
       "headers": [
         {
           "level": 2,
@@ -44,6 +95,20 @@ export const siteData = {
           "slug": "阿达十大的123"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/docu/core.html",
+      "relativePath": "docu/core.md",
+      "key": "v-306a7d7a",
+      "path": "/docu/core.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/use/vue.html",
+      "relativePath": "use/vue.md",
+      "key": "v-04731cc0",
+      "path": "/use/vue.html"
     },
     {
       "frontmatter": {
@@ -74,51 +139,47 @@ export const siteData = {
     }
   ],
   "themeConfig": {
+    "subSidebar": "auto",
     "nav": [
       {
         "text": "首页",
         "link": "/"
-      },
-      {
-        "text": "博客地址",
-        "items": [
-          {
-            "text": "Github",
-            "link": "https://github.com/mqyqingfeng"
-          },
-          {
-            "text": "掘金",
-            "link": "https://juejin.cn/user/712139234359182/posts"
-          }
-        ]
       }
     ],
     "sidebar": [
       {
-        "title": "欢迎学习",
+        "title": "关于插件",
         "path": "/",
         "collapsable": false,
         "children": [
           {
-            "title": "学前必读",
+            "title": "介绍",
             "path": "/"
           }
         ]
       },
       {
-        "title": "基础学习",
-        "path": "/handbook/Geners",
+        "title": "使用",
+        "path": "/use/js",
         "collapsable": false,
         "children": [
           {
-            "title": "条件类型",
-            "path": "/handbook/Geners"
+            "title": "在 JS 中使用",
+            "path": "/use/js"
           },
           {
-            "title": "泛型",
-            "path": "/handbook/Geners_2"
+            "title": "在 Vue 中使用",
+            "path": "/use/vue"
           }
         ]
+      },
+      {
+        "title": "文档",
+        "path": "/docu/core"
+      },
+      {
+        "title": "示例",
+        "path": "/demo/core"
       }
     ]
   },
