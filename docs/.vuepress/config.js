@@ -12,13 +12,6 @@ module.exports = {
     subSidebar: 'auto', // 右侧导航
     nav: [ // 导航栏
       { text: '首页', link: '/about/introduce' },
-      // {
-      //   text: '博客地址',
-      //   items: [
-      //     { text: 'Github', link: 'https://github.com/mqyqingfeng' },
-      //     { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
-      //   ]
-      // }
     ],
     sidebar: [ // 标签页
       {
@@ -45,6 +38,7 @@ module.exports = {
         collapsable: false,
         children: [
           { title: "基础说明", path: "/docs/core" },
+          { title: "数据结构", path: "/docs/scheme" },
           { title: "init 配置初始化", path: "/docs/init" },
           { title: "base 环境采集", path: "/docs/base" },
           { title: "event 事件采集", path: "/docs/event" },
