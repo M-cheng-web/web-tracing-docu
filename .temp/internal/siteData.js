@@ -8,41 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/about/introduce.html",
-      "relativePath": "about/introduce.md",
-      "key": "v-efb92280",
-      "path": "/about/introduce.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "行为埋点",
-          "slug": "行为埋点"
-        },
-        {
-          "level": 2,
-          "title": "性能采集",
-          "slug": "性能采集"
-        },
-        {
-          "level": 2,
-          "title": "异常采集",
-          "slug": "异常采集"
-        },
-        {
-          "level": 2,
-          "title": "请求采集",
-          "slug": "请求采集"
-        },
-        {
-          "level": 2,
-          "title": "路由采集",
-          "slug": "路由采集"
-        }
-      ]
-    },
-    {
       "title": "设计核心(WWWWH)",
       "frontmatter": {},
       "regularPath": "/about/core.html",
@@ -78,38 +43,95 @@ export const siteData = {
       ]
     },
     {
+      "title": "介绍",
       "frontmatter": {},
-      "regularPath": "/docs/base.html",
-      "relativePath": "docs/base.md",
-      "key": "v-9ca3fe0c",
-      "path": "/docs/base.html"
-    },
-    {
-      "title": "setCustomerId",
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "index.md",
-      "key": "v-56c047a6",
-      "path": "/",
+      "regularPath": "/about/introduce.html",
+      "relativePath": "about/introduce.md",
+      "key": "v-efb92280",
+      "path": "/about/introduce.html",
       "headers": [
         {
-          "level": 3,
-          "title": "埋点自动分类采集",
-          "slug": "埋点自动分类采集"
+          "level": 2,
+          "title": "行为埋点",
+          "slug": "行为埋点"
         },
         {
-          "level": 3,
-          "title": "事件数据结构",
-          "slug": "事件数据结构"
+          "level": 2,
+          "title": "性能采集",
+          "slug": "性能采集"
+        },
+        {
+          "level": 2,
+          "title": "异常采集",
+          "slug": "异常采集"
+        },
+        {
+          "level": 2,
+          "title": "请求采集",
+          "slug": "请求采集"
+        },
+        {
+          "level": 2,
+          "title": "路由采集",
+          "slug": "路由采集"
         }
       ]
     },
     {
+      "title": "err",
       "frontmatter": {},
-      "regularPath": "/demo/core.html",
-      "relativePath": "demo/core.md",
-      "key": "v-4386298c",
-      "path": "/demo/core.html"
+      "regularPath": "/docs/err.html",
+      "relativePath": "docs/err.md",
+      "key": "v-f09c41b8",
+      "path": "/docs/err.html"
+    },
+    {
+      "title": "event",
+      "frontmatter": {},
+      "regularPath": "/docs/event.html",
+      "relativePath": "docs/event.md",
+      "key": "v-6769a60c",
+      "path": "/docs/event.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "页面卸载事件",
+          "slug": "页面卸载事件"
+        },
+        {
+          "level": 2,
+          "title": "点击事件",
+          "slug": "点击事件"
+        },
+        {
+          "level": 3,
+          "title": "eventId采集规则",
+          "slug": "eventid采集规则"
+        },
+        {
+          "level": 3,
+          "title": "title采集规则",
+          "slug": "title采集规则"
+        },
+        {
+          "level": 3,
+          "title": "params采集规则",
+          "slug": "params采集规则"
+        },
+        {
+          "level": 3,
+          "title": "DOM元素标记",
+          "slug": "dom元素标记"
+        }
+      ]
+    },
+    {
+      "title": "http",
+      "frontmatter": {},
+      "regularPath": "/docs/http.html",
+      "relativePath": "docs/http.md",
+      "key": "v-05c9c8cc",
+      "path": "/docs/http.html"
     },
     {
       "title": "基础说明",
@@ -146,78 +168,18 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "内置方法",
-          "slug": "内置方法"
-        },
-        {
-          "level": 3,
-          "title": "主动上报方法",
-          "slug": "主动上报方法"
-        },
-        {
-          "level": 3,
-          "title": "其他方法",
-          "slug": "其他方法"
-        },
-        {
-          "level": 2,
           "title": "标识",
           "slug": "标识"
         }
       ]
     },
     {
+      "title": "示例",
       "frontmatter": {},
-      "regularPath": "/docs/err.html",
-      "relativePath": "docs/err.md",
-      "key": "v-f09c41b8",
-      "path": "/docs/err.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/docs/http.html",
-      "relativePath": "docs/http.md",
-      "key": "v-05c9c8cc",
-      "path": "/docs/http.html"
-    },
-    {
-      "title": "event",
-      "frontmatter": {},
-      "regularPath": "/docs/event.html",
-      "relativePath": "docs/event.md",
-      "key": "v-6769a60c",
-      "path": "/docs/event.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "页面卸载事件",
-          "slug": "页面卸载事件"
-        },
-        {
-          "level": 2,
-          "title": "点击事件",
-          "slug": "点击事件"
-        },
-        {
-          "level": 3,
-          "title": "DOM元素标记",
-          "slug": "dom元素标记"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/docs/performance.html",
-      "relativePath": "docs/performance.md",
-      "key": "v-b0301064",
-      "path": "/docs/performance.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/docs/pv.html",
-      "relativePath": "docs/pv.md",
-      "key": "v-3628b35a",
-      "path": "/docs/pv.html"
+      "regularPath": "/demo/core.html",
+      "relativePath": "demo/core.md",
+      "key": "v-4386298c",
+      "path": "/demo/core.html"
     },
     {
       "title": "init",
@@ -236,6 +198,76 @@ export const siteData = {
           "level": 2,
           "title": "示例",
           "slug": "示例"
+        }
+      ]
+    },
+    {
+      "title": "performance",
+      "frontmatter": {},
+      "regularPath": "/docs/performance.html",
+      "relativePath": "docs/performance.md",
+      "key": "v-b0301064",
+      "path": "/docs/performance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数据来源",
+          "slug": "数据来源"
+        },
+        {
+          "level": 2,
+          "title": "发送格式",
+          "slug": "发送格式"
+        },
+        {
+          "level": 3,
+          "title": "首次页面性能数据对象格式",
+          "slug": "首次页面性能数据对象格式"
+        },
+        {
+          "level": 3,
+          "title": "同步 & 异步资源加载时传给后台的对象格式(大部分依赖于performance.getEntriesByType('resource'))",
+          "slug": "同步-异步资源加载时传给后台的对象格式-大部分依赖于performance-getentriesbytype-resource"
+        }
+      ]
+    },
+    {
+      "title": "内置方法",
+      "frontmatter": {},
+      "regularPath": "/docs/methods.html",
+      "relativePath": "docs/methods.md",
+      "key": "v-78e9ff4a",
+      "path": "/docs/methods.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "主动上报方法",
+          "slug": "主动上报方法"
+        },
+        {
+          "level": 3,
+          "title": "traceError",
+          "slug": "traceerror"
+        },
+        {
+          "level": 3,
+          "title": "tracePerformance",
+          "slug": "traceperformance"
+        },
+        {
+          "level": 3,
+          "title": "traceCustomEvent",
+          "slug": "tracecustomevent"
+        },
+        {
+          "level": 3,
+          "title": "tracePageView",
+          "slug": "tracepageview"
+        },
+        {
+          "level": 2,
+          "title": "其他方法",
+          "slug": "其他方法"
         }
       ]
     },
@@ -264,18 +296,23 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "type",
+          "slug": "type"
+        },
+        {
+          "level": 3,
           "title": "eventId",
           "slug": "eventid"
         }
       ]
     },
     {
-      "title": "在 Vue 中使用",
+      "title": "pv",
       "frontmatter": {},
-      "regularPath": "/use/vue.html",
-      "relativePath": "use/vue.md",
-      "key": "v-04731cc0",
-      "path": "/use/vue.html"
+      "regularPath": "/docs/pv.html",
+      "relativePath": "docs/pv.md",
+      "key": "v-3628b35a",
+      "path": "/docs/pv.html"
     },
     {
       "title": "待做",
@@ -299,6 +336,41 @@ export const siteData = {
           "level": 2,
           "title": "设置全局参数",
           "slug": "设置全局参数"
+        },
+        {
+          "level": 2,
+          "title": "备注",
+          "slug": "备注"
+        },
+        {
+          "level": 2,
+          "title": "params",
+          "slug": "params"
+        },
+        {
+          "level": 2,
+          "title": "时间",
+          "slug": "时间"
+        },
+        {
+          "level": 2,
+          "title": "error",
+          "slug": "error"
+        },
+        {
+          "level": 2,
+          "title": "资源监控",
+          "slug": "资源监控"
+        },
+        {
+          "level": 2,
+          "title": "请求",
+          "slug": "请求"
+        },
+        {
+          "level": 2,
+          "title": "代码",
+          "slug": "代码"
         }
       ]
     },
@@ -321,6 +393,14 @@ export const siteData = {
           "slug": "方式二-通过-import-引入"
         }
       ]
+    },
+    {
+      "title": "在 Vue 中使用",
+      "frontmatter": {},
+      "regularPath": "/use/vue.html",
+      "relativePath": "use/vue.md",
+      "key": "v-04731cc0",
+      "path": "/use/vue.html"
     },
     {
       "frontmatter": {
@@ -407,10 +487,6 @@ export const siteData = {
             "path": "/docs/init"
           },
           {
-            "title": "base 环境采集",
-            "path": "/docs/base"
-          },
-          {
             "title": "event 事件采集",
             "path": "/docs/event"
           },
@@ -429,16 +505,20 @@ export const siteData = {
           {
             "title": "performance 资源采集",
             "path": "/docs/performance"
+          },
+          {
+            "title": "methods 内置方法",
+            "path": "/docs/methods"
           }
         ]
       },
       {
-        "title": "待做",
-        "path": "/todo/core"
-      },
-      {
         "title": "示例",
         "path": "/demo/core"
+      },
+      {
+        "title": "待做",
+        "path": "/todo/core"
       }
     ]
   },

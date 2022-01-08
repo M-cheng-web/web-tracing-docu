@@ -75,16 +75,25 @@
 
 ## eventInfo
 采集到的事件数组,这些事件有不同的类型,**不同类型下的埋点数据结构有一些差异**<br>
-:no_entry:这里主要介绍`eventType`以及`eventId`的取值以及意义,不同事件类型的数据结构会在对应的目录中展示并说明:no_entry:
+:no_entry:这里主要介绍`eventType type eventId`的取值以及意义,不同事件类型的数据结构会在对应的目录中展示并说明:no_entry:
 
 ### eventType
 eventType用于表明事件的类型,类型为固定的以下几种(浏览器自身基础事件和自定义事件)
 + pv ( 路由 )
 + error ( 错误 )
 + performance ( 资源 )
-+ mix ( 合并这些事件: click, submit, scroll, change )
++ click ( 点击 )
 + dwell ( 页面卸载 )
 + custom ( 手动触发事件的类型 )
+
+### type
+作为`eventType`的补充字段,把某些事件类型合并,同时也增加某些事件区分度,易于后台分类
++ mix ( 合并这些eventType事件: click, submit, scroll, change )
++ resourcePerformance ( eventType === performance && eventId === resource )
++ pagePerformance ( eventType === performance && eventId === page )
++ serverPerformance ( eventType === performance && eventId === server )
+
+> 其他 eventType 事件类型就不做特殊处理,例如 eventType === pv时 type 也会赋值为 pv
 
 ### eventId
 eventId用于表明事件的唯一标识,同一类型下的事件可能会有细分
@@ -100,7 +109,7 @@ eventId用于表明事件的唯一标识,同一类型下的事件可能会有细
 
 当`eventType`为`dwell`时`eventId`是一串根据时间戳计算得来的字符
 
-当`eventType`为`mix`时`eventId`的采集顺序为
+当`eventType`为`click`时`eventId`的采集顺序为
 1. 从触发的元素向上找其父级元素(直到body之下)的属性,用最先找到的`data-warden-event-id`属性的值
 2. 与上同理,用最先找到的`title`属性的值
 3. 与上同理,找到带有`data-warden-container`属性的元素

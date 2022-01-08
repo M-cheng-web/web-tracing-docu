@@ -40,21 +40,21 @@ module.exports = {
           { title: "基础说明", path: "/docs/core" },
           { title: "数据结构", path: "/docs/scheme" },
           { title: "init 配置初始化", path: "/docs/init" },
-          { title: "base 环境采集", path: "/docs/base" },
           { title: "event 事件采集", path: "/docs/event" },
           { title: "pv 路由采集", path: "/docs/pv" },
           { title: "http 请求采集", path: "/docs/http" },
           { title: "err 错误采集", path: "/docs/err" },
-          { title: "performance 资源采集", path: "/docs/performance" }
+          { title: "performance 资源采集", path: "/docs/performance" },
+          { title: "methods 内置方法", path: "/docs/methods" }
         ],
-      },
-      {
-        title: "待做",
-        path: '/todo/core',
       },
       {
         title: "示例",
         path: '/demo/core',
+      },
+      {
+        title: "待做",
+        path: '/todo/core',
       },
     ]
   }

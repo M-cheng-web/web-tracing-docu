@@ -58,7 +58,7 @@ _trace.init({
 // 主动收集
 _trace.traceError(...)
 _trace.tracePerformance(...)
-_trace.traceEvent(...)
+_trace.traceCustomEvent(...)
 _trace.tracePageView(...)
 ```
 

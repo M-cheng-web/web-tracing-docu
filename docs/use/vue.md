@@ -33,7 +33,7 @@ this._trace.init({
 ``` js
 this._trace.traceError(...)
 this._trace.tracePerformance(...)
-this._trace.traceEvent(...)
+this._trace.traceCustomEvent(...)
 this._trace.tracePageView(...)
 ```
 
