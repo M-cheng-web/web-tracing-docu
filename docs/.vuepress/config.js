@@ -1,7 +1,7 @@
 module.exports = {
   title: 'web-tracing', // 标题
   description: '基于 JS / VUE 的 【埋点 & 性能采集 & 异常采集 & 请求采集 & 路由采集】 插件',
-  base: '/web-tracing-docu/about/introduce/', // github项目名
+  base: '/web-tracing-docu/', // github项目名
   theme: 'reco', // 主题
   locales: {
     '/': {
