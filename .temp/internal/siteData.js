@@ -8,6 +8,41 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/about/introduce.html",
+      "relativePath": "about/introduce.md",
+      "key": "v-efb92280",
+      "path": "/about/introduce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "行为埋点",
+          "slug": "行为埋点"
+        },
+        {
+          "level": 2,
+          "title": "性能采集",
+          "slug": "性能采集"
+        },
+        {
+          "level": 2,
+          "title": "异常采集",
+          "slug": "异常采集"
+        },
+        {
+          "level": 2,
+          "title": "请求采集",
+          "slug": "请求采集"
+        },
+        {
+          "level": 2,
+          "title": "路由采集",
+          "slug": "路由采集"
+        }
+      ]
+    },
+    {
       "title": "设计核心(WWWWH)",
       "frontmatter": {},
       "regularPath": "/about/core.html",
@@ -43,39 +78,80 @@ export const siteData = {
       ]
     },
     {
-      "title": "介绍",
+      "title": "示例",
       "frontmatter": {},
-      "regularPath": "/about/introduce.html",
-      "relativePath": "about/introduce.md",
-      "key": "v-efb92280",
-      "path": "/about/introduce.html",
+      "regularPath": "/demo/core.html",
+      "relativePath": "demo/core.md",
+      "key": "v-4386298c",
+      "path": "/demo/core.html"
+    },
+    {
+      "title": "勘误 & 补充",
+      "frontmatter": {},
+      "regularPath": "/about/warning.html",
+      "relativePath": "about/warning.md",
+      "key": "v-4a3b3d60",
+      "path": "/about/warning.html",
       "headers": [
         {
           "level": 2,
-          "title": "行为埋点",
-          "slug": "行为埋点"
+          "title": "待做",
+          "slug": "待做"
         },
         {
           "level": 2,
-          "title": "性能采集",
-          "slug": "性能采集"
-        },
-        {
-          "level": 2,
-          "title": "异常采集",
-          "slug": "异常采集"
-        },
-        {
-          "level": 2,
-          "title": "请求采集",
-          "slug": "请求采集"
-        },
-        {
-          "level": 2,
-          "title": "路由采集",
-          "slug": "路由采集"
+          "title": "微信",
+          "slug": "微信"
         }
       ]
+    },
+    {
+      "title": "基础说明",
+      "frontmatter": {},
+      "regularPath": "/docs/core.html",
+      "relativePath": "docs/core.md",
+      "key": "v-0e9dfa3a",
+      "path": "/docs/core.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "插件采集规则",
+          "slug": "插件采集规则"
+        },
+        {
+          "level": 3,
+          "title": "采集方式",
+          "slug": "采集方式"
+        },
+        {
+          "level": 3,
+          "title": "发送后台地址配置",
+          "slug": "发送后台地址配置"
+        },
+        {
+          "level": 3,
+          "title": "发送数据原理",
+          "slug": "发送数据原理"
+        },
+        {
+          "level": 3,
+          "title": "发送间隔",
+          "slug": "发送间隔"
+        },
+        {
+          "level": 2,
+          "title": "标识",
+          "slug": "标识"
+        }
+      ]
+    },
+    {
+      "title": "http",
+      "frontmatter": {},
+      "regularPath": "/docs/http.html",
+      "relativePath": "docs/http.md",
+      "key": "v-05c9c8cc",
+      "path": "/docs/http.html"
     },
     {
       "title": "err",
@@ -124,62 +200,6 @@ export const siteData = {
           "slug": "dom元素标记"
         }
       ]
-    },
-    {
-      "title": "http",
-      "frontmatter": {},
-      "regularPath": "/docs/http.html",
-      "relativePath": "docs/http.md",
-      "key": "v-05c9c8cc",
-      "path": "/docs/http.html"
-    },
-    {
-      "title": "基础说明",
-      "frontmatter": {},
-      "regularPath": "/docs/core.html",
-      "relativePath": "docs/core.md",
-      "key": "v-0e9dfa3a",
-      "path": "/docs/core.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "插件采集规则",
-          "slug": "插件采集规则"
-        },
-        {
-          "level": 3,
-          "title": "采集方式",
-          "slug": "采集方式"
-        },
-        {
-          "level": 3,
-          "title": "发送后台地址配置",
-          "slug": "发送后台地址配置"
-        },
-        {
-          "level": 3,
-          "title": "发送数据原理",
-          "slug": "发送数据原理"
-        },
-        {
-          "level": 3,
-          "title": "发送间隔",
-          "slug": "发送间隔"
-        },
-        {
-          "level": 2,
-          "title": "标识",
-          "slug": "标识"
-        }
-      ]
-    },
-    {
-      "title": "示例",
-      "frontmatter": {},
-      "regularPath": "/demo/core.html",
-      "relativePath": "demo/core.md",
-      "key": "v-4386298c",
-      "path": "/demo/core.html"
     },
     {
       "title": "init",
@@ -451,6 +471,10 @@ export const siteData = {
           {
             "title": "设计核心",
             "path": "/about/core"
+          },
+          {
+            "title": "补充 & 勘误",
+            "path": "/about/warning"
           }
         ]
       },

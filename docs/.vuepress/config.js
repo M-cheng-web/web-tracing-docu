@@ -20,7 +20,8 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [
           { title: "介绍", path: "/about/introduce" },
-          { title: "设计核心", path: "/about/core" }
+          { title: "设计核心", path: "/about/core" },
+          { title: "补充 & 勘误", path: "/about/warning" }
         ]
       },
       {
