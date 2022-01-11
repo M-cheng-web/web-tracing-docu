@@ -30,6 +30,7 @@ this._trace.init({
 <font size=4>3. 在项目中使用</font>
 
 主动收集
+
 ``` js
 this._trace.traceError(...)
 this._trace.tracePerformance(...)
@@ -38,6 +39,7 @@ this._trace.tracePageView(...)
 ```
 
 html元素增加属性自动收集
+
 ``` html
 <template>
   <div
@@ -56,4 +58,3 @@ html元素增加属性自动收集
   </div>
 </template>
 ```
-
