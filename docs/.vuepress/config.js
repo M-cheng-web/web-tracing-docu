@@ -11,15 +11,15 @@ module.exports = {
   themeConfig: {
     subSidebar: 'auto', // 右侧导航
     nav: [ // 导航栏
-      { text: '首页', link: '/about/introduce' },
+      { text: '首页', link: '/' },
     ],
     sidebar: [ // 标签页
       {
         title: '关于插件',
-        path: '/about/introduce',
+        path: '/',
         collapsable: false, // 不折叠
         children: [
-          { title: "介绍", path: "/about/introduce" },
+          { title: "介绍", path: "/" },
           { title: "设计核心", path: "/about/core" },
           { title: "补充 & 勘误", path: "/about/warning" }
         ]
