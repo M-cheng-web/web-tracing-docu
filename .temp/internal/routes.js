@@ -9,14 +9,6 @@ import GlobalLayout from "/Users/chengxinhan/A - 学习/web-tracing-docu/node_mo
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-539d4962",
-    path: "/about/core.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-539d4962").then(next)
-    },
-  },
-  {
     name: "v-1c4b2443",
     path: "/",
     component: GlobalLayout,
@@ -45,11 +37,11 @@ export const routes = [
     },
   },
   {
-    name: "v-f88ef150",
-    path: "/docs/core.html",
+    name: "v-539d4962",
+    path: "/about/core.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f88ef150").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-539d4962").then(next)
     },
   },
   {
@@ -58,6 +50,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-53577858").then(next)
+    },
+  },
+  {
+    name: "v-f88ef150",
+    path: "/docs/core.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f88ef150").then(next)
     },
   },
   {
@@ -77,19 +77,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7235a8b8",
-    path: "/docs/http.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7235a8b8").then(next)
-    },
-  },
-  {
     name: "v-5471a890",
     path: "/docs/init.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5471a890").then(next)
+    },
+  },
+  {
+    name: "v-7235a8b8",
+    path: "/docs/http.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7235a8b8").then(next)
     },
   },
   {
@@ -125,14 +125,6 @@ export const routes = [
     },
   },
   {
-    name: "v-2afe8410",
-    path: "/use/vue.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2afe8410").then(next)
-    },
-  },
-  {
     name: "v-7eef1938",
     path: "/todo/core.html",
     component: GlobalLayout,
@@ -146,6 +138,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-a3aad5fc").then(next)
+    },
+  },
+  {
+    name: "v-2afe8410",
+    path: "/use/vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2afe8410").then(next)
     },
   },
   {

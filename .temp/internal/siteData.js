@@ -8,41 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "设计核心(WWWWH)",
-      "frontmatter": {},
-      "regularPath": "/about/core.html",
-      "relativePath": "about/core.md",
-      "key": "v-539d4962",
-      "path": "/about/core.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Who",
-          "slug": "who"
-        },
-        {
-          "level": 2,
-          "title": "When",
-          "slug": "when"
-        },
-        {
-          "level": 2,
-          "title": "Where",
-          "slug": "where"
-        },
-        {
-          "level": 2,
-          "title": "What",
-          "slug": "what"
-        },
-        {
-          "level": 2,
-          "title": "How",
-          "slug": "how"
-        }
-      ]
-    },
-    {
       "title": "介绍",
       "frontmatter": {},
       "regularPath": "/",
@@ -133,6 +98,49 @@ export const siteData = {
       ]
     },
     {
+      "title": "设计核心(WWWWH)",
+      "frontmatter": {},
+      "regularPath": "/about/core.html",
+      "relativePath": "about/core.md",
+      "key": "v-539d4962",
+      "path": "/about/core.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Who",
+          "slug": "who"
+        },
+        {
+          "level": 2,
+          "title": "When",
+          "slug": "when"
+        },
+        {
+          "level": 2,
+          "title": "Where",
+          "slug": "where"
+        },
+        {
+          "level": 2,
+          "title": "What",
+          "slug": "what"
+        },
+        {
+          "level": 2,
+          "title": "How",
+          "slug": "how"
+        }
+      ]
+    },
+    {
+      "title": "示例",
+      "frontmatter": {},
+      "regularPath": "/demo/core.html",
+      "relativePath": "demo/core.md",
+      "key": "v-53577858",
+      "path": "/demo/core.html"
+    },
+    {
       "title": "基础说明",
       "frontmatter": {},
       "regularPath": "/docs/core.html",
@@ -171,14 +179,6 @@ export const siteData = {
           "slug": "标识"
         }
       ]
-    },
-    {
-      "title": "示例",
-      "frontmatter": {},
-      "regularPath": "/demo/core.html",
-      "relativePath": "demo/core.md",
-      "key": "v-53577858",
-      "path": "/demo/core.html"
     },
     {
       "title": "err",
@@ -229,14 +229,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "http",
-      "frontmatter": {},
-      "regularPath": "/docs/http.html",
-      "relativePath": "docs/http.md",
-      "key": "v-7235a8b8",
-      "path": "/docs/http.html"
-    },
-    {
       "title": "init",
       "frontmatter": {},
       "regularPath": "/docs/init.html",
@@ -255,6 +247,14 @@ export const siteData = {
           "slug": "示例"
         }
       ]
+    },
+    {
+      "title": "http",
+      "frontmatter": {},
+      "regularPath": "/docs/http.html",
+      "relativePath": "docs/http.md",
+      "key": "v-7235a8b8",
+      "path": "/docs/http.html"
     },
     {
       "title": "内置方法",
@@ -370,14 +370,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "在 Vue 中使用",
-      "frontmatter": {},
-      "regularPath": "/use/vue.html",
-      "relativePath": "use/vue.md",
-      "key": "v-2afe8410",
-      "path": "/use/vue.html"
-    },
-    {
       "title": "待做",
       "frontmatter": {},
       "regularPath": "/todo/core.html",
@@ -461,6 +453,14 @@ export const siteData = {
           "slug": "方式二-通过-import-引入"
         }
       ]
+    },
+    {
+      "title": "在 Vue 中使用",
+      "frontmatter": {},
+      "regularPath": "/use/vue.html",
+      "relativePath": "use/vue.md",
+      "key": "v-2afe8410",
+      "path": "/use/vue.html"
     },
     {
       "frontmatter": {
