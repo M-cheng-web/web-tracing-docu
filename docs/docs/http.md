@@ -15,3 +15,29 @@
 | params         |                                       | 请求的参数 (只有POST请求会带) |
 | url            |                                       | 页面地址                      |
 | type           |                                       | 大类type,参考`数据结构`       |
+
+当一个请求报错后会触发三个采集: 
+1. 插件内置http捕捉错误采集 
+2. 控制台vue的捕捉错误被错误采集给收集了 
+3. 控制台Error实例报错被错误采集了
+
+**插件对这种情况暂时不会做特殊处理**
+
+## 传给后台格式示例
+``` js
+{
+  eventInfo: [
+    {
+      duration: 38
+      eventId: "server"
+      eventType: "performance"
+      responseStatus: 200
+      sendTime: 1641974433133
+      src: "http://172.15.1231/ance/form/riskApperaisal/getRiskAppraisal"
+      triggerTime: 1641974432132
+      type: "serverPerformance"
+      url: "http://localhost:8083/http.html"
+    }
+  ]
+}
+```

@@ -12,7 +12,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-1c4b2443",
+      "key": "v-fbeb95a4",
       "path": "/",
       "headers": [
         {
@@ -43,11 +43,46 @@ export const siteData = {
       ]
     },
     {
+      "title": "设计核心(WWWWH)",
+      "frontmatter": {},
+      "regularPath": "/about/core.html",
+      "relativePath": "about/core.md",
+      "key": "v-6a8bc06c",
+      "path": "/about/core.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Who",
+          "slug": "who"
+        },
+        {
+          "level": 2,
+          "title": "When",
+          "slug": "when"
+        },
+        {
+          "level": 2,
+          "title": "Where",
+          "slug": "where"
+        },
+        {
+          "level": 2,
+          "title": "What",
+          "slug": "what"
+        },
+        {
+          "level": 2,
+          "title": "How",
+          "slug": "how"
+        }
+      ]
+    },
+    {
       "title": "介绍",
       "frontmatter": {},
       "regularPath": "/about/introduce.html",
       "relativePath": "about/introduce.md",
-      "key": "v-cc9d0b50",
+      "key": "v-efb92280",
       "path": "/about/introduce.html",
       "headers": [
         {
@@ -82,7 +117,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/about/warning.html",
       "relativePath": "about/warning.md",
-      "key": "v-b5e25610",
+      "key": "v-4a3b3d60",
       "path": "/about/warning.html",
       "headers": [
         {
@@ -98,37 +133,27 @@ export const siteData = {
       ]
     },
     {
-      "title": "设计核心(WWWWH)",
+      "title": "err",
       "frontmatter": {},
-      "regularPath": "/about/core.html",
-      "relativePath": "about/core.md",
-      "key": "v-539d4962",
-      "path": "/about/core.html",
+      "regularPath": "/docs/err.html",
+      "relativePath": "docs/err.md",
+      "key": "v-f09c41b8",
+      "path": "/docs/err.html",
       "headers": [
         {
           "level": 2,
-          "title": "Who",
-          "slug": "who"
+          "title": "传给后台格式示例",
+          "slug": "传给后台格式示例"
         },
         {
-          "level": 2,
-          "title": "When",
-          "slug": "when"
+          "level": 3,
+          "title": "Error实例引起的报错提交数据",
+          "slug": "error实例引起的报错提交数据"
         },
         {
-          "level": 2,
-          "title": "Where",
-          "slug": "where"
-        },
-        {
-          "level": 2,
-          "title": "What",
-          "slug": "what"
-        },
-        {
-          "level": 2,
-          "title": "How",
-          "slug": "how"
+          "level": 3,
+          "title": "不是Error实例引起的报错提交数据(这里是vue的报错)",
+          "slug": "不是error实例引起的报错提交数据-这里是vue的报错"
         }
       ]
     },
@@ -137,15 +162,105 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/demo/core.html",
       "relativePath": "demo/core.md",
-      "key": "v-53577858",
+      "key": "v-4386298c",
       "path": "/demo/core.html"
+    },
+    {
+      "title": "event",
+      "frontmatter": {},
+      "regularPath": "/docs/event.html",
+      "relativePath": "docs/event.md",
+      "key": "v-6769a60c",
+      "path": "/docs/event.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "页面卸载事件",
+          "slug": "页面卸载事件"
+        },
+        {
+          "level": 2,
+          "title": "点击事件",
+          "slug": "点击事件"
+        },
+        {
+          "level": 3,
+          "title": "eventId采集规则",
+          "slug": "eventid采集规则"
+        },
+        {
+          "level": 3,
+          "title": "title采集规则",
+          "slug": "title采集规则"
+        },
+        {
+          "level": 3,
+          "title": "params采集规则",
+          "slug": "params采集规则"
+        },
+        {
+          "level": 3,
+          "title": "DOM元素标记",
+          "slug": "dom元素标记"
+        },
+        {
+          "level": 2,
+          "title": "传给后台格式示例",
+          "slug": "传给后台格式示例"
+        },
+        {
+          "level": 3,
+          "title": "示例一",
+          "slug": "示例一"
+        },
+        {
+          "level": 3,
+          "title": "示例二",
+          "slug": "示例二"
+        }
+      ]
+    },
+    {
+      "title": "init",
+      "frontmatter": {},
+      "regularPath": "/docs/init.html",
+      "relativePath": "docs/init.md",
+      "key": "v-60ac9e9a",
+      "path": "/docs/init.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "options",
+          "slug": "options"
+        },
+        {
+          "level": 2,
+          "title": "示例",
+          "slug": "示例"
+        }
+      ]
+    },
+    {
+      "title": "http",
+      "frontmatter": {},
+      "regularPath": "/docs/http.html",
+      "relativePath": "docs/http.md",
+      "key": "v-05c9c8cc",
+      "path": "/docs/http.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "传给后台格式示例",
+          "slug": "传给后台格式示例"
+        }
+      ]
     },
     {
       "title": "基础说明",
       "frontmatter": {},
       "regularPath": "/docs/core.html",
       "relativePath": "docs/core.md",
-      "key": "v-f88ef150",
+      "key": "v-0e9dfa3a",
       "path": "/docs/core.html",
       "headers": [
         {
@@ -181,87 +296,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "err",
-      "frontmatter": {},
-      "regularPath": "/docs/err.html",
-      "relativePath": "docs/err.md",
-      "key": "v-c4adc87c",
-      "path": "/docs/err.html"
-    },
-    {
-      "title": "event",
-      "frontmatter": {},
-      "regularPath": "/docs/event.html",
-      "relativePath": "docs/event.md",
-      "key": "v-64f6ea98",
-      "path": "/docs/event.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "页面卸载事件",
-          "slug": "页面卸载事件"
-        },
-        {
-          "level": 2,
-          "title": "点击事件",
-          "slug": "点击事件"
-        },
-        {
-          "level": 3,
-          "title": "eventId采集规则",
-          "slug": "eventid采集规则"
-        },
-        {
-          "level": 3,
-          "title": "title采集规则",
-          "slug": "title采集规则"
-        },
-        {
-          "level": 3,
-          "title": "params采集规则",
-          "slug": "params采集规则"
-        },
-        {
-          "level": 3,
-          "title": "DOM元素标记",
-          "slug": "dom元素标记"
-        }
-      ]
-    },
-    {
-      "title": "init",
-      "frontmatter": {},
-      "regularPath": "/docs/init.html",
-      "relativePath": "docs/init.md",
-      "key": "v-5471a890",
-      "path": "/docs/init.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "options",
-          "slug": "options"
-        },
-        {
-          "level": 2,
-          "title": "示例",
-          "slug": "示例"
-        }
-      ]
-    },
-    {
-      "title": "http",
-      "frontmatter": {},
-      "regularPath": "/docs/http.html",
-      "relativePath": "docs/http.md",
-      "key": "v-7235a8b8",
-      "path": "/docs/http.html"
-    },
-    {
       "title": "内置方法",
       "frontmatter": {},
       "regularPath": "/docs/methods.html",
       "relativePath": "docs/methods.md",
-      "key": "v-3421bde8",
+      "key": "v-78e9ff4a",
       "path": "/docs/methods.html",
       "headers": [
         {
@@ -301,7 +340,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/docs/performance.html",
       "relativePath": "docs/performance.md",
-      "key": "v-ee838f28",
+      "key": "v-b0301064",
       "path": "/docs/performance.html",
       "headers": [
         {
@@ -323,6 +362,11 @@ export const siteData = {
           "level": 3,
           "title": "同步 & 异步资源加载时传给后台的对象格式(大部分依赖于performance.getEntriesByType('resource'))",
           "slug": "同步-异步资源加载时传给后台的对象格式-大部分依赖于performance-getentriesbytype-resource"
+        },
+        {
+          "level": 2,
+          "title": "传给后台格式示例",
+          "slug": "传给后台格式示例"
         }
       ]
     },
@@ -331,15 +375,27 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/docs/pv.html",
       "relativePath": "docs/pv.md",
-      "key": "v-993b0110",
-      "path": "/docs/pv.html"
+      "key": "v-3628b35a",
+      "path": "/docs/pv.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "action 字段解释",
+          "slug": "action-字段解释"
+        },
+        {
+          "level": 2,
+          "title": "传给后台格式示例",
+          "slug": "传给后台格式示例"
+        }
+      ]
     },
     {
       "title": "数据结构",
       "frontmatter": {},
       "regularPath": "/docs/scheme.html",
       "relativePath": "docs/scheme.md",
-      "key": "v-66042350",
+      "key": "v-9f69bf8c",
       "path": "/docs/scheme.html",
       "headers": [
         {
@@ -374,7 +430,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/todo/core.html",
       "relativePath": "todo/core.md",
-      "key": "v-7eef1938",
+      "key": "v-09d48c1a",
       "path": "/todo/core.html",
       "headers": [
         {
@@ -426,11 +482,6 @@ export const siteData = {
           "level": 2,
           "title": "代码",
           "slug": "代码"
-        },
-        {
-          "level": 2,
-          "title": "测试",
-          "slug": "测试"
         }
       ]
     },
@@ -439,7 +490,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/use/js.html",
       "relativePath": "use/js.md",
-      "key": "v-a3aad5fc",
+      "key": "v-431912aa",
       "path": "/use/js.html",
       "headers": [
         {
@@ -459,7 +510,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/use/vue.html",
       "relativePath": "use/vue.md",
-      "key": "v-2afe8410",
+      "key": "v-04731cc0",
       "path": "/use/vue.html"
     },
     {

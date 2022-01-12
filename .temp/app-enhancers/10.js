@@ -1,1 +1,1 @@
-export { default } from "/Users/chengxinhan/A - 学习/web-tracing-docu/node_modules/vuepress-plugin-smooth-scroll/lib/enhanceApp.js"
+export { default } from "D:\\B学习\\web-tracing-docu\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"

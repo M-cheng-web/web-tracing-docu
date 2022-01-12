@@ -20,3 +20,42 @@
 | params      |                                     | 主动方法触发错误收集可以带参数 |
 
 > 注意: vue中代码报错也会触发console.error,加上控制台本身也会输出,这就意味着会触发两次,这一点后续会优化
+
+## 传给后台格式示例
+### Error实例引起的报错提交数据
+``` js
+{
+  eventInfo: [
+    {
+      col: "12"
+      errMessage: "window.sss is not a function"
+      errStack: "TypeError: window.sss is not a function\n ....... "
+      eventId: "code"
+      eventType: "error"
+      line: "250"
+      sendTime: 1641971814966
+      src: "http://localhost:8083/err.js"
+      triggerTime: 1641971813965
+      type: "error"
+      url: "http://localhost:8083/err.html"
+    }
+  ]
+}
+```
+
+### 不是Error实例引起的报错提交数据(这里是vue的报错)
+``` js
+{
+  eventInfo: [
+    {
+      errMessage: "[Vue warn]: Error in created hook: \"TypeError: windo ...."
+      eventId: "code"
+      eventType: "error"
+      sendTime: 1641972159263
+      triggerTime: 1641972158260
+      type: "error"
+      url: "http://localhost:8083/err.html"
+    }
+  ]
+}
+```

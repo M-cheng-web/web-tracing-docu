@@ -17,7 +17,7 @@ _trace.init(options)
 | performance               | boolean/object | 否       | false     | 当为boolean值时:<br> true代表其所有属性为 true <br> false 代表其所有属性为false                 |
 | performance.core          | boolean        | 否       | false     | 性能数据 - 是否采集静态资源、接口的相关数据                                                     |
 | performance.firstResource | boolean        | 否       | false     | 性能数据 - 是否采集首次进入页面的数据 (ps: tcp连接耗时,HTML加载完成时间,首次可交互时间)         |
-| performance.server        | boolean        | 否       | false     | 接口请求 - 是否采集接口请求(成功的才会采集)                                                     |
+| performance.server        | boolean        | 否       | false     | 接口请求 - 是否采集接口请求(成功的才会采集,采集失败的需打开error.server)                      |
 | error                     | boolean/objcet | 否       | false     | 当为boolean值时:<br> true代表其所有属性为 true <br> false 代表其所有属性为false                 |
 | error.core                | boolean        | 否       | false     | 是否采集异常数据 (ps: 资源引入错误,promise错误,控制台输出错误)                                  |
 | error.server              | boolean        | 否       | false     | 接口请求 - 是否采集报错接口数据                                                                 |

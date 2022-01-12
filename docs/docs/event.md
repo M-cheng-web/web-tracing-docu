@@ -26,6 +26,7 @@
 | sendTime    |                                                                             | 发送时间                 |
 | triggerTime |                                                                             | 事件发生时间             |
 | elementPath | 例如: div>div>button                                                        | 被点击元素的层级         |
+| type        |                                                                             | 大类type,参考`数据结构`  |
 | x           | e.target.getBoundingClientRect().left + document.documentElement.scrollLeft | 被点击元素与屏幕左边距离 |
 | y           | e.target.getBoundingClientRect().top + document.documentElement.scrollTop   | 被点击元素与屏幕上边距离 |
 
@@ -85,4 +86,72 @@ ps:
   <img src="" alt="" onClick="() => location.href = url" />
   <a href={url}>课程1</a>      
 </div>
+```
+
+## 传给后台格式示例
+### 示例一
+``` html
+<div
+  class="box-div"
+  data-warden-title="xxx"
+  data-warden-bigTitle="bigTitle"
+  width="100%">
+  示例div
+</div>
+```
+
+点击示例div  =>
+
+``` js
+{
+  eventInfo: [
+    {
+      elementPath: "div"
+      eventId: "div"
+      eventType: "click"
+      params: { bigtitle: "bigTitle" }
+      sendTime: 1641969431146
+      title: "xxx"
+      triggerTime: 1641969430144
+      type: "mix"
+      url: "http://localhost:8083/event.html"
+      x: 8
+      y: 8
+    }
+  ]
+}
+```
+
+### 示例二
+``` html
+<div
+  style="border: 1px solid red"
+  data-warden-test="test"
+  data-warden-title="titletitle"
+  data-warden-bing="bing"
+  data-warden-event-id="ddd">
+  <div class="asd">示例div</div>
+</div>
+```
+
+点击示例div  =>
+
+``` js
+{
+  eventInfo: [
+    {
+      elementPath: "div>div"
+      eventId: "ddd"
+      eventType: "click"
+      params: { test: "test", bing: "bing" }
+      sendTime: 1641970260634
+      title: "titletitle"
+      triggerTime: 1641970259633
+      type: "mix"
+      url: "http://localhost:8083/event.html"
+      x: 20
+      y: 20
+    }
+  ]
+}
 ```

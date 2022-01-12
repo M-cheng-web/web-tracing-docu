@@ -58,3 +58,25 @@ t = nt2Timing || performance.getEntriesByType('navigation')[0]
 | responseEnd       |                     | 数据包接收完成时间                     |
 | triggerTime       |                     | 事件触发时间                           |
 | url               |                     | 当前页面地址                           |
+
+## 传给后台格式示例
+``` js
+{
+  eventInfo: [
+    {
+      duration: 26.3
+      eventId: "resource"
+      eventType: "performance"
+      fetchStart: 201966.4
+      initiatorType: "script"
+      responseEnd: 201992.7
+      sendTime: 1641976273811
+      src: "http://172.15.4.131:4873/-/static/vendors.064cfdd8107ff39d68ca.js"
+      startTime: 201966.4
+      triggerTime: 1641976272810
+      type: "resourcePerformance"
+      url: "http://localhost:8083/performance.html#/"
+    }
+  ]
+}
+```
