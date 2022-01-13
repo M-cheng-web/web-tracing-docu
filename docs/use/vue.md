@@ -1,4 +1,5 @@
 # 在 Vue 中使用
+> 目前只支持vue2,如果想用在vue3中参考js的使用方法放在 public->index.html 中
 
 <font size=4>1. 安装插件</font>
 
@@ -15,9 +16,7 @@ yarn add web-tracing@latest
 ``` js
 import tracing from 'web-tracing'
 Vue.use(tracing)
-
-// 初始化
-this._trace.init({
+Vue.use(trace, {
   requestUrl: 'http://172.15.224.10:33199/trackweb/tra',
   appName: 'chengxh',
   event: true,
