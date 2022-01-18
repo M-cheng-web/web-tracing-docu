@@ -8,10 +8,10 @@
 
 ``` json
 # npm 安装
-npm i web-tracing@latest
+npm i @web-tracing/vue@latest
 
 # 或者 yarn 安装
-yarn add web-tracing@latest
+yarn add @web-tracing/vue@latest
 ```
 
 <font size=4>2. 在 main.js 引入插件,初始化</font>
@@ -66,10 +66,10 @@ html元素增加属性自动收集
 
 ``` json
 # npm 安装
-npm i web-tracing@latest
+npm i @web-tracing/vue@latest
 
 # 或者 yarn 安装
-yarn add web-tracing@latest
+yarn add @web-tracing/vue@latest
 ```
 
 <font size=4>2. 在 main.js 引入插件,初始化</font>

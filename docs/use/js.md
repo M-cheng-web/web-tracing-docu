@@ -14,7 +14,7 @@
   </head>
   <script src="https://cdn.jsdelivr.net/npm/web-tracing"></script>
   <script>
-    _trace.init({
+    webtracing.init({
       requestUrl: 'http://172.15.224.10:33199/trackweb/tra',
       appName: 'chengxh',
       event: true,
@@ -43,10 +43,10 @@ yarn add web-tracing@latest
 <font size=5>使用</font>
 
 ``` js
-const _trace = require('web-tracing')
-// 或者: import _trace from 'web-tracing'
+const webtracing = require('web-tracing')
+// 或者: import webtracing from 'web-tracing'
 
-_trace.init({
+webtracing.init({
   requestUrl: 'http://172.15.224.10:33199/trackweb/tra',
   appName: 'chengxh',
   event: true,
@@ -56,12 +56,8 @@ _trace.init({
 })
 
 // 主动收集
-_trace.traceError(...)
-_trace.tracePerformance(...)
-_trace.traceCustomEvent(...)
-_trace.tracePageView(...)
+webtracing.traceError(...)
+webtracing.tracePerformance(...)
+webtracing.traceCustomEvent(...)
+webtracing.tracePageView(...)
 ```
-
-
-
-
