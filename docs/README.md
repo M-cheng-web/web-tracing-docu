@@ -4,6 +4,11 @@
 
 > 采集用户操作信息、环境信息以及性能信息,在一定延迟后统一发送请求给后端
 
+::: danger
+此项目为`web-tracing`的**项目文档**
+[https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
+:::
+
 ## 行为埋点
 如果你想获取到用户在页面的点击行为,一般来说有两种方案
 1. 每次点击都请求接口告诉后台此次点击行为
