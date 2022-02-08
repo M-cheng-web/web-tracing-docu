@@ -2,6 +2,8 @@
 <font size=7>web-tracing</font><br>
 :boom::boom::boom::goat: 基于 JS 的 【行为埋点 & 性能采集 & 异常采集 & 请求采集 & 路由采集】 插件 :dash:
 
+项目GitHub地址: [https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
+
 > 采集用户操作信息、环境信息以及性能信息,在一定延迟后统一发送请求给后端
 
 ## 行为埋点
