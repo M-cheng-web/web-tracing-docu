@@ -4,10 +4,12 @@
 
 项目GitHub地址: [https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
 
-::: warning
+<h1>
 文档已翻新
-新文档地址：[https://m-cheng-web.github.io/web-tracing/](https://m-cheng-web.github.io/web-tracing/)
-:::
+新文档地址：https://m-cheng-web.github.io/web-tracing/
+</h1>
+
+[https://m-cheng-web.github.io/web-tracing/](https://m-cheng-web.github.io/web-tracing/)
 
 > 采集用户操作信息、环境信息以及性能信息,在一定延迟后统一发送请求给后端
 
